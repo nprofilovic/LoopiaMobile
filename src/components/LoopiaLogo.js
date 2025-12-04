@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
   },
   text: {
     fontWeight: 'bold',
     color: '#1E293B',
+    marginLeft: 8,
   },
 });
 

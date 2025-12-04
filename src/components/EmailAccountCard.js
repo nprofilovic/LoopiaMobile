@@ -114,12 +114,10 @@ const styles = StyleSheet.create({
     borderColor: '#E2E8F0',
     padding: 16,
     marginBottom: 12,
-    // Shadow za iOS
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.05,
     shadowRadius: 2,
-    // Elevation za Android
     elevation: 1,
   },
   header: {
@@ -179,7 +177,6 @@ const styles = StyleSheet.create({
   },
   actions: {
     flexDirection: 'row',
-    gap: 8,
   },
   actionButton: {
     flex: 1,
@@ -188,6 +185,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     justifyContent: 'center',
     alignItems: 'center',
+    marginHorizontal: 4,
   },
   primaryButton: {
     backgroundColor: '#FEE2E2',
